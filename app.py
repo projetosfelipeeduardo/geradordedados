@@ -52,7 +52,8 @@ while True:
          print("Arquivo salvo com sucesso!")
          break
      elif salvar_arquivo.lower() == 'n':
-         break
+        print("Arquivo não foi Salvo.")
+        break
      else:
          print("Resposta inválida. Por favor, digite 'S' para sim ou 'N' para não.")
      
